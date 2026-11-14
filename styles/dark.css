@@ -10,17 +10,17 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --bg-image: url("./images/cover-image-dark.png");
-  --bg-color: #000028;
-  --title-font-color: #db00ff;
-  --title-shadow-color: #ff0070;
-  --accent-block-bg: #ff0070;
-  --accent-block__subtitle-color: #000028;
-  --menu-button-border: #ff0070;
-  --menu-button-color: #ff0070;
+  --bg-color: rgb(0, 0, 40);
+  --title-font-color: rgb(219, 0, 255);
+  --title-shadow-color: rgb(255, 0, 112);
+  --accent-block-bg: rgb(255, 0, 112);
+  --accent-block__subtitle-color: rgb(0, 0, 40);
+  --menu-button-border: rgb(255, 0, 112);
+  --menu-button-color: rgb(255, 0, 112);
   --menu-button-hover: rgba(255, 0, 112, 0.4);
-  --accent-color: #ff0070;
-  --decor-color: #ff0070;
-  --main-color: #f1b2ce;
+  --accent-color: rgb(255, 0, 112);
+  --decor-color: rgb(255, 0, 112);
+  --main-color: rgb(241, 178, 206);
 }
 
 .theme-dark .rec-indicator {
@@ -34,16 +34,17 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-image: url("./images/cover-image-dark.png");
-    --bg-color: #000028;
-    --title-font-color: #db00ff;
-    --title-shadow-color: #ff0070;
-    --accent-block-bg: #ff0070;
-    --accent-block__subtitle-color: #000028;
-    --menu-button-border: #ff0070;
-    --menu-button-color: #ff0070;
+    --bg-color: rgb(0, 0, 40);
+    --title-font-color: rgb(219, 0, 255);
+    --title-shadow-color: rgb(255, 0, 112);
+    --accent-block-bg: rgb(255, 0, 112);
+    --accent-block__subtitle-color: rgb(0, 0, 40);
+    --menu-button-border: rgb(255, 0, 112);
+    --menu-button-color: rgb(255, 0, 112);
     --menu-button-hover: rgba(255, 0, 112, 0.4);
-    --decor-color: #ff0070;
-    --main-color: #f1b2ce;
+    --accent-color: rgb(255, 0, 112);
+    --decor-color: rgb(255, 0, 112);
+    --main-color: rgb(241, 178, 206);
   }
   
   .rec-indicator {

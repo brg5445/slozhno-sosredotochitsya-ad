@@ -9,18 +9,18 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --bg-image: url("./images/cover-image.png");
-  --bg-color: #fff;
-  --title-font-color: rgba(255, 194, 230, 1);
-  --title-shadow-color: rgba(255, 141, 203, 1);
-  --accent-block-bg: rgba(255, 141, 203, 1);
-  --accent-block__subtitle-color: rgba(53, 52, 48, 1);
-  --menu-button-border: #000;
-  --menu-button-color: #000;
-  --menu-button-hover: rgba(50, 49, 45, 0.4);
-  --accent-color: #ff0070;
-  --decor-color: #000;
-  --main-color: #000;
+  --bg-image: url("./images/cover-image-light.png");
+  --bg-color: rgb(255, 241, 247);
+  --title-font-color: rgb(255, 194, 230);
+  --title-shadow-color: rgb(255, 141, 203);
+  --accent-block-bg: rgb(255, 141, 203);
+  --accent-block__subtitle-color: rgb(53, 52, 48);
+  --menu-button-border: rgb(53, 52, 48);
+  --menu-button-color: rgb(53, 52, 48);
+  --menu-button-hover: rgba(53, 52, 48, 0.4);
+  --accent-color: rgb(255, 0, 112);
+  --decor-color: rgb(53, 52, 48);
+  --main-color: rgb(53, 52, 48);
 }
 
 .theme-light .rec-indicator {
