@@ -41,6 +41,7 @@
     --accent-block__subtitle-color: #000028;
     --menu-button-border: #ff0070;
     --menu-button-color: #ff0070;
+    --menu-button-hover: rgba(255, 0, 112, 0.4);
     --decor-color: #ff0070;
     --main-color: #f1b2ce;
   }
